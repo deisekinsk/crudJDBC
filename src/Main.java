@@ -8,7 +8,7 @@ public class Main {
         Usuario listaUsuario = new Usuario();
 //        listaUsuario.createUsuario();
         listaUsuario.readUsuarios();
-        listaUsuario.updateUsuario();
+//        listaUsuario.updateUsuario();
 //        listaUsuario.deleteUsuario();
 
     }
