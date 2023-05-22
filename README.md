@@ -28,6 +28,9 @@ Classes da API jdbc
 | Update         | PUT or PATCH        |UPDATE
 | Delete         | DELETE              |DELETE
 
+## Gerar datasets
+https://www.mockaroo.com/
+
 ## Formatação de arquivo .md
 
 - `src`: the folder to maintain sources
