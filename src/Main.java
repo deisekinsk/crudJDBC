@@ -1,12 +1,7 @@
 import com.usuer.Usuario;
 
-import java.sql.SQLException;
-
 public class Main {
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
-
-        //JConexao conectaBD = new JConexao();
-        //conectaBD.getConectar();
+    public static void main(String[] args) {
 
         Usuario listaUsuario = new Usuario();
 //        listaUsuario.createUsuario();

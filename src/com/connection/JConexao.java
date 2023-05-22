@@ -2,7 +2,6 @@ package com.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLData;
 import java.sql.SQLException;
 
 
@@ -23,7 +22,6 @@ public class JConexao {
             System.err.println("Não conectado");
             e.printStackTrace();
         }
-
         return conexao;
     }
 
