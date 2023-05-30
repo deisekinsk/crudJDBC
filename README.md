@@ -21,12 +21,12 @@ Classes da API jdbc
 
 ### Tipos de Dados em Java X Memória consumida
 
-| CRUD Operation | HTTP Request Method | SQL
-|----------------|---------------------|-----
-| Create         | POST                |INSERT
-| Read           | GET                 |SELECT
-| Update         | PUT or PATCH        |UPDATE
-| Delete         | DELETE              |DELETE
+| CRUD Operation | HTTP Request Method | SQL | noSQL
+|----------------|---------------------|-----|----------
+| Create         | POST                |INSERT| insert()
+| Read           | GET                 |SELECT| find() findByIdAndUpdate()
+| Update         | PUT or PATCH        |UPDATE| findByIdAndUpdate()
+| Delete         | DELETE              |DELETE| findByIdAndDelete()
 
 ## Gerar datasets
 https://www.mockaroo.com/
